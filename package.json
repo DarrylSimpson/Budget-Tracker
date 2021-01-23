@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "AS AN avid traveler\r I WANT to be able to track my withdrawals and deposits with or without a data/internet connection\r SO THAT my account balance is accurate when I am traveling",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,8 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.5.15",
+    "mongoose": "^5.11.13",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {}
 }
