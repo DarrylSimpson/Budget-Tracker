@@ -31,7 +31,7 @@ request.onerror = function(event) {
 //this funcitno will be executed if we attempt to submit new budget and theres no internet connection
 function saveRecord(record) {
     //open a new transaction with the database with read and write permission
-    const transaction = db.transacttion(['new_budget'], 'readwrite');
+    const transaction = db.transaction(['new_budget'], 'readwrite');
 
     //access the object store for 'new_budget'
     const budgetObjectStore = transaction.objectStore('new_budget');
@@ -50,7 +50,7 @@ function uploadBudget() {
 
     getAll.onsuccess = function() {
         if(getAll.result.length > 0) {
-            fetch('/api/budgets', {
+            fetch('/api/transaction/bulk', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
                 headers: {
