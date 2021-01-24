@@ -1,13 +1,40 @@
-# Budget Tracker Starter Code
+# Budget Tracker
 
-# User Story 
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+![badge](https://img.shields.io/badge/JavaScript-100%25-blue)
 
-# Criteria
-GIVEN a budget tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+  ## Description
+An app that can track your withdrawals and deposits online or offline, good for traveling!
+
+
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Pcitures](#pictures)
+  * [License](#license)
+  * [Features](#features)
+  * [Credits](#credits)
+
+  ## Installation
+        
+  Once downloading, install the packages with "npm install" in node. Application will execute on "npm start".
+  
+  ## Pictures
+
+  ![ScreenShot1of1](./assets/images/image01.png)
+  
+
+      
+  ## License
+  MIT
+  <br>
+  [See MIT License](https://choosealicense.com/licenses/mit)
+
+  ## Features
+    
+  Able to use this app for budgeting and showing use of inexDB and service worker.
+
+ ## Credits
+    
+  Contributor: Darryl Simpson  
+  GitHub: https://github.com/DarrylSimpson
