@@ -7,7 +7,8 @@ fetch("/api/transaction")
   })
   .then(data => {
     // save db data on global variable
-    transactions = data;
+    transations = Object.keys(data).length > 1 ? data : []
+    //transactions = data;
 
     populateTotal();
     populateTable();
